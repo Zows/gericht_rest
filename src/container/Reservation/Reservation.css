@@ -1,0 +1,90 @@
+.app__reservation{
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	padding: 6rem 0 6rem 0;
+	background: var(--color-black);
+}
+.app__logo-right img{
+	width: 146px;
+	height: 146px;
+}
+.app__reservation-container{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 5rem 0;
+	padding: 2rem 2rem;
+	border: 1px solid var(--color-golden);
+}
+.app__reservation-heading{
+	text-align: center;
+}
+.app__reservation-select{
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin-top: 3rem;
+}
+.app__reservation-select_items{
+	margin: 0 2rem 3rem 0;
+}
+.app__reservation-select_items:last-child{
+	margin-right: 0;
+}
+
+.app__reservation-select_items select,
+.app__reservation-select_items input{
+	width: 300px;
+	height: 50px;
+	border: 1px solid var(--color-golden);
+	font-size: 1rem;
+	font-family: var(--font-vase);
+	color: var(--color-white);
+	padding: 0.75rem 1rem;
+	background: var(--color-black);
+}
+
+@media screen and (min-width:  2000px){
+	
+}
+@media screen and (max-width:  990px){
+	.app__reservation-select{
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+	.app__reservation-container{
+		margin: 3rem 0;
+	}
+	.app__reservation-select_items{
+		margin: 0.75rem 0;
+	}
+	.app__newsletter-input input{
+		margin: 0 0 2rem 0;
+		width: 100%;
+	}
+	.app__reservation-container button{
+		margin-top: 1rem;
+	}
+}
+@media screen and (max-width:  650px){
+	.app__reservation-container{
+		padding: 2rem 0;
+		border: none;
+	}
+}
+@media screen and (max-width:  300px){
+	.app__reservation-select{
+		margin-top: 1rem;
+	}
+	.app__reservation-heading h1{
+		font-size: 32px;
+		line-height: 50px;
+	}
+}

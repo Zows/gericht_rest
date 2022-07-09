@@ -9,7 +9,7 @@ const Newsletter = () => (
       <SubHeading title="Newsletter"/>
       <h1 className="headtext__cormorant">Subscribe to Our Newsletter</h1>
       <p className="p__opensans">And never miss latest Updates!</p>
-    </div>
+    </div> 
     <div className="app__newsletter-input flex__center">
       <input type="email" placeholder="Enter your e-mail" />
       <button className="custom__button">Subscribe</button>

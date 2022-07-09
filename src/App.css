@@ -15,7 +15,20 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
-
+.app__logo-left{
+  position: absolute;
+  top: -20px;
+  left: 15%;
+  width: 146px;
+  height: 146px;
+}
+.app__logo-right{
+  position: absolute;
+  top: -20px;
+  right: 15%;
+  width: 146px;
+  height: 146px;
+}
 .app__wrapper {
   display: flex;
   justify-content: space-between;
@@ -127,7 +140,12 @@
   .app__wrapper {
     flex-direction: column;
   }
-
+  .app__logo-left{
+    left: 5%;
+  }
+  .app__logo-right{
+    right: 5%;
+  }
   .app__wrapper_img {
     margin: 5rem 0 0 0;
   }
