@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gericht_rest/static/css/main.2803e0ab.css",
-    "main.js": "/gericht_rest/static/js/main.7f00e1d6.js",
+    "main.css": "/gericht_rest/static/css/main.2214c3fd.css",
+    "main.js": "/gericht_rest/static/js/main.7612d954.js",
     "static/media/meal.mp4": "/gericht_rest/static/media/meal.a1b6c6dc67dfa2f99343.mp4",
     "static/media/bg.png": "/gericht_rest/static/media/bg.3d421b1b5682e1b67deb.png",
     "static/media/welcome.png": "/gericht_rest/static/media/welcome.d724eb984456d9c97470.png",
@@ -24,11 +24,11 @@
     "static/media/sign.png": "/gericht_rest/static/media/sign.9bf0bd90ad4caa17991f.png",
     "index.html": "/gericht_rest/index.html",
     "static/media/spoon.svg": "/gericht_rest/static/media/spoon.d079f43fbcf509908d3865293080795a.svg",
-    "main.2803e0ab.css.map": "/gericht_rest/static/css/main.2803e0ab.css.map",
-    "main.7f00e1d6.js.map": "/gericht_rest/static/js/main.7f00e1d6.js.map"
+    "main.2214c3fd.css.map": "/gericht_rest/static/css/main.2214c3fd.css.map",
+    "main.7612d954.js.map": "/gericht_rest/static/js/main.7612d954.js.map"
   },
   "entrypoints": [
-    "static/css/main.2803e0ab.css",
-    "static/js/main.7f00e1d6.js"
+    "static/css/main.2214c3fd.css",
+    "static/js/main.7612d954.js"
   ]
 }
