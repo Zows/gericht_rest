@@ -15,6 +15,13 @@
   background-repeat: repeat;
   background-attachment: fixed;
 }
+.app__bg-menu {
+  background: url('./assets/menu_rest.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  height: 100vh;
+}
 .app__logo-left{
   position: absolute;
   top: -20px;
